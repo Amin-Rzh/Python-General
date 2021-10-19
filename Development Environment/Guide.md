@@ -27,6 +27,6 @@
    4.2. you should see the following output:
    
       ```bash
-         Installed kernelspec {nameOfVenv} in {venv path}
+         Installed kernelspec {nameOfVenv} in {venv configuration path for jupyter}
       ```
       
