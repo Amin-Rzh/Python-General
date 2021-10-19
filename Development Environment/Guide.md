@@ -24,6 +24,9 @@
    ```bash
       python -m ipykernel install --name={nameOfVenv}
    ```
-   you should see the output:
+   4.2. you should see the following output:
    
-      __Installed kernelspec {nameOfVenv} in {venv path}__
+      ```bash
+         Installed kernelspec {nameOfVenv} in {venv path}
+      ```
+      
