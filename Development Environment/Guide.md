@@ -1,3 +1,6 @@
-## How to setup venv and Jupyter lab
+## How to setup Venv and Jupyter lab
 
-this is a test
+1. creating a new venv: 
+    ```bash
+      python -m venv nanode-udacity
+    ```
