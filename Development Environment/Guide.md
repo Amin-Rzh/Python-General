@@ -9,6 +9,7 @@
       python -m venv nameOfVenv
    ```
 3. Activating the venv:
+
    3.1. In Windows OS:
       ```bash
       {venv path}/scripts/activate
