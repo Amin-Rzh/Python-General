@@ -22,7 +22,7 @@
 4. add venv to jupyter lab:
    4.1 be sure that your venv is already activated then use the following command:
    ```bash
-      python -m ipykernel install --name={nameOfVenv}
+      python -m ipykernel install --user --name={nameOfVenv}
    ```
    4.2. you should see the following output:
    
