@@ -20,6 +20,7 @@
          source {venv path}/scripts/activate
       ```
 4. add venv to jupyter lab:
+   
    4.1 be sure that your venv is already activated then use the following command:
    ```bash
       python -m ipykernel install --user --name={nameOfVenv}
@@ -30,3 +31,13 @@
          Installed kernelspec {nameOfVenv} in {venv configuration path for jupyter}
       ```
       
+5. check the kernel.json file in {venv configuration path for jupyter}
+6. see the list of installed virtual environments:
+   ```bash
+      jupyter kernelspec list
+   ```
+   
+7. delete installed virtual environments:
+   ```bash
+      jupyter kernelspec uninstall {nameOfVenv}
+   ```
